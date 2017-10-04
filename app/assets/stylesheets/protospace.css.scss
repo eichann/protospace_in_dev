@@ -595,33 +595,23 @@ body {
   }
 }
 
-/*-- tag --------------------------------------------- */
-.tag {
-  padding: 0px;
-  height: 90px;
-  text-decoration: none;
+/* -- flash messages ------------------------------------ */
+.alert {
+  margin: 0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
-.tag-header {
-  margin: -15px 0 20px 15px;
-  height: 58px;
-  color: #337ab7;
-  font-size: 48px;
-  font-weight: 400;
+.alert--success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
 }
 
-.tag-name {
-  margin-bottom: 10px;
-  width: 100%;
-  height: 40px;
-  text-align: center;
-  background: #70ADF3;
-  color: white;
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.tag-project {
-  height: 10px;
-  text-align: center;
+.alert--danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
 }
